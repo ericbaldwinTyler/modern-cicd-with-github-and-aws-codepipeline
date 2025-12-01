@@ -273,7 +273,6 @@ Resources:
       Type: String
       Value: !Sub "https://${CloudFrontDistribution.DomainName}"
 
-
 Outputs:
   DynamoDBTableName:
     Description: "Name of the DynamoDB Table"
